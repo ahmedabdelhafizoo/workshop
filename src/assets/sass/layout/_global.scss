@@ -1,0 +1,53 @@
+// global style
+@font-face {
+  font-family: 'Segoe UI';
+  font-weight: 300;
+  src: url('~@/assets/fonts/SegoeUI-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Segoe UI';
+  font-weight: 400;
+  src: url('~@/assets/fonts/Segoe-UI.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Segoe UI';
+  font-weight: 600;
+  src: url('~@/assets/fonts/Segoe-UI-Bold.woff') format('woff');
+}
+
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  max-width: 1920px;
+  margin: auto;
+}
+
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+// custom scrollbar
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #dadada;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(172, 170, 170);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
